@@ -66,14 +66,31 @@ import Base from "../layouts/Base.astro";
     <h2>サポート内容</h2>
     <div class="cards">
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="14" r="8" stroke="#2c5f2d" stroke-width="2.5"/>
+          <path d="M8 40c0-8.8 7.2-16 16-16s16 7.2 16 16" stroke="#2c5f2d" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M32 22l4 4 8-8" stroke="#97bc62" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
         <h3>キャリア相談</h3>
         <p>将来の仕事や進路について、一緒に考えます。</p>
       </div>
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="6" width="32" height="36" rx="3" stroke="#2c5f2d" stroke-width="2.5"/>
+          <path d="M16 16h16M16 24h10" stroke="#2c5f2d" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="36" cy="36" r="9" fill="#faf8f5" stroke="#97bc62" stroke-width="2.5"/>
+          <path d="M33 36l6-6M33 30l6 6" stroke="#97bc62" stroke-width="2" stroke-linecap="round"/>
+          <path d="M36 30v-1a5 5 0 00-5-5h0" stroke="#97bc62" stroke-width="2" stroke-linecap="round"/>
+        </svg>
         <h3>留学相談</h3>
         <p>海外の大学への進学、準備、費用など。</p>
       </div>
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="18" stroke="#2c5f2d" stroke-width="2.5"/>
+          <ellipse cx="24" cy="24" rx="8" ry="18" stroke="#2c5f2d" stroke-width="2"/>
+          <path d="M6 24h36M8 16h32M8 32h32" stroke="#97bc62" stroke-width="1.5"/>
+        </svg>
         <h3>海外生活相談</h3>
         <p>海外で暮らすこと・働くことのリアルな話。</p>
       </div>
@@ -225,6 +242,12 @@ import Base from "../layouts/Base.astro";
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .card-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.8rem;
   }
 
   .card h3 {
