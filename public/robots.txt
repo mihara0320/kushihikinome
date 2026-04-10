@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mihara0320.github.io/kushihikinome/sitemap-index.xml
