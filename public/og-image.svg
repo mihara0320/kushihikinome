@@ -1,0 +1,33 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="100%" style="stop-color:#e8d5c0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Sprout illustration -->
+  <g transform="translate(600, 380)">
+    <!-- Stem -->
+    <path d="M0,0 C0,-40 -5,-80 0,-120" stroke="#2c5f2d" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Left leaf -->
+    <path d="M-2,-80 C-40,-120 -50,-90 -30,-60 C-20,-50 -10,-70 -2,-80Z" fill="#97bc62"/>
+    <!-- Right leaf -->
+    <path d="M2,-100 C40,-140 50,-110 30,-80 C20,-70 10,-90 2,-100Z" fill="#2c5f2d"/>
+    <!-- Ground -->
+    <ellipse cx="0" cy="5" rx="40" ry="8" fill="#8B7355" opacity="0.4"/>
+  </g>
+
+  <!-- Site name -->
+  <text x="600" y="240" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-size="72" font-weight="bold" fill="#2c5f2d">くしひきの芽</text>
+
+  <!-- Tagline -->
+  <text x="600" y="310" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-size="28" fill="#555">茨城県の学生のための</text>
+  <text x="600" y="350" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-size="28" fill="#555">キャリア・留学・海外生活の無料相談</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="590" width="1200" height="40" fill="#2c5f2d"/>
+</svg>

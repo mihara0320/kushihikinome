@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle background -->
+  <circle cx="64" cy="64" r="60" fill="#2c5f2d"/>
+
+  <!-- Sprout -->
+  <g transform="translate(64, 90)">
+    <!-- Stem -->
+    <path d="M0,0 C0,-15 -3,-30 0,-50" stroke="#97bc62" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Left leaf -->
+    <path d="M-1,-35 C-25,-60 -30,-45 -18,-28 C-12,-22 -6,-30 -1,-35Z" fill="#97bc62"/>
+    <!-- Right leaf -->
+    <path d="M1,-45 C25,-70 30,-55 18,-38 C12,-32 6,-42 1,-45Z" fill="#b5d87a"/>
+    <!-- Ground -->
+    <ellipse cx="0" cy="4" rx="18" ry="4" fill="#97bc62" opacity="0.4"/>
+  </g>
+</svg>
