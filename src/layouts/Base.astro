@@ -18,6 +18,41 @@ const { title } = Astro.props;
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <title>{title}</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "くしひきの芽",
+      "description": "茨城県の学生向け キャリア・留学・海外生活の無料相談",
+      "serviceType": "キャリア・留学相談",
+      "areaServed": {
+        "@type": "State",
+        "name": "茨城県",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Japan"
+        }
+      },
+      "provider": {
+        "@type": "Person",
+        "name": "Masaki Ihara",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Tallinn University of Technology"
+        },
+        "sameAs": "https://www.linkedin.com/in/mihara0320/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      },
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": "student"
+      }
+    }
+    </script>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGEXN3LBC9"></script>
     <script>
